@@ -1,0 +1,22 @@
+header {
+    background-color: lightblue;
+    text-align: center; /* Center align the heading */
+    padding: 20px 0; /* Add some padding for better spacing */
+  }
+  
+  header h1 {
+    margin: 0; /* Remove default margin for h1 */
+  }
+
+.username {
+    text-align: center;
+    
+}
+
+.content {
+    background-color: pink;
+    width: 100%; /* Cover entire width */
+    padding: 20px; /* Add some padding for better appearance */
+    box-sizing: border-box; /* Include padding in width calculation */
+    text-align: center;
+}

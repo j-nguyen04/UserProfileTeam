@@ -1,0 +1,160 @@
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100vh; /* Make the body take up the full height of the viewport */
+  display: flex; /* Use flexbox to align children */
+  flex-direction: column; /* Stack children vertically */
+}
+
+nav {
+  text-align: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+nav a:hover {
+  background-color: #555;
+}
+
+
+
+
+.half {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 500px; /* Adjust the value as needed */
+}
+
+.blue {
+  background-color: darkblue; /* Set background color for the blue section */
+}
+
+.white {
+  background-color: gray; 
+  position: relative;
+}
+
+.content {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header {
+  color: white; 
+  text-align: center; 
+  padding: 20px 0; 
+}
+
+.logo {
+  position: absolute; 
+  top: 10%; 
+  right: 20px; 
+  width: 600px;
+  height: 400px; 
+}
+
+.plasticlogo {
+  position: absolute; 
+  top: 10%; 
+  left: 20px; 
+  width: 600px;
+  height: 400px; 
+}
+
+.acidlogo {
+  position: absolute; 
+  top: 135%; 
+  right: 10px; 
+  transform: translateY(-50%);
+  width: 500px;
+  height: 400px;
+}
+
+.acid2logo {
+  position: absolute; 
+  top: 135%; 
+  left: 10px; 
+  transform: translateY(-50%);
+  width: 550px;
+  height: 400px;
+}
+
+.fishlogo {
+  position: absolute; 
+  top: 190%; 
+  right: 50px; 
+  transform: translateY(-50%);
+  width: 500px;
+  height: 400px; 
+
+}
+
+.eutrophicationlogo {
+  position: absolute;
+  top: 240%; 
+  left: 50px; 
+  transform: translateY(-50%);
+  width: 500px;
+  height: 400px; 
+}
+.red {
+  background-color: navy;
+  
+}
+
+.purple {
+  background-color: gray;
+}
+
+.pink {
+  background-color: navy;
+}
+
+.genre-list {
+  padding: 0;
+  list-style: none;
+}
+
+.genre-list li {
+  margin-bottom: 20px; 
+}
+
+.genre-list li a {
+  display: block;
+  width: 100%;
+  background-color: lightblue;
+  padding: 10px; 
+  text-decoration: none;
+  color: black; 
+}
+
+.genre-list li a:hover {
+  background-color: lightcyan; 
+}
+
+#goToTopBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 999; 
+  background-color: lightblue;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#goToTopBtn:hover {
+  background-color: lightcyan;
+}
+
+.header p {
+  font-size: 18px; /* Adjust the font size as needed */
+}
